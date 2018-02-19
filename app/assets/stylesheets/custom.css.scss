@@ -107,3 +107,21 @@ $navbar-default-bg: #01050B;
     list-style: none;
     padding-left: 0;
 }
+
+.badge{
+    background-color: #cef6f5;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    padding:5px;
+}
+
+.blue{
+    background-color:#01050B;
+    color: #fafafa;
+    padding:5px;
+}
+
+.input_checkbox input{
+  width: auto !important;
+}
