@@ -4,6 +4,7 @@ $navbar-default-bg: #01050B;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 #logo{
     float: left;
     font-size: 1.7em;
@@ -124,4 +125,8 @@ $navbar-default-bg: #01050B;
 
 .input_checkbox input{
   width: auto !important;
+}
+
+.big{
+    font-size: 40px;
 }
