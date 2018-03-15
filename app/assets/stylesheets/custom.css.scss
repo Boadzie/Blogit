@@ -1,3 +1,9 @@
+body{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
 $navbar-default-bg: #01050B;
 
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
@@ -14,7 +20,7 @@ $navbar-default-bg: #01050B;
     font-weight: bold;
 }
 
-
+ul.nav a:hover { color: #fff !important; }
 
 
 #logo:hover{
