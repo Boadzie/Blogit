@@ -1,17 +1,12 @@
-body{
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+body {
+    background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%);
 }
 
 $navbar-default-bg: #01050B;
-
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
-
-#logo{
+#logo {
     float: left;
     font-size: 1.7em;
     color: aliceblue;
@@ -20,19 +15,20 @@ $navbar-default-bg: #01050B;
     font-weight: bold;
 }
 
-ul.nav a:hover { color: #fff !important; }
+ul.nav a:hover {
+    color: #fff !important;
+}
 
-
-#logo:hover{
+#logo:hover {
     color: #fff;
     text-decoration: none;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
-.jumbotron{
+.jumbotron {
     background-image: asset-url("Ducks.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -40,109 +36,109 @@ ul.nav a:hover { color: #fff !important; }
 }
 
 .jumbotron h1 {
-    color:#fff;
+    color: #fff;
     text-align: center;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     letter-spacing: -1px;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
-.jumbotron h4{
-    color:#fff;
+.jumbotron h4 {
+    color: #fff;
 }
 
-
-.blak{
+.blak {
     font-size: 1.7em;
-    background-color:#0D7B13;
+    background-color: #0D7B13;
 }
-
-
 
 .article-actions {
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
-    }
+}
 
 .description {
     margin-top: 0;
-    }
-
+}
 
 .article-title {
     font-weight: bold;
     font-size: 1.5em;
-    }
+}
 
 .article-body {
     border-top: 1px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 15px;
- }
+}
 
- .article-meta-data{
-     border-top: 1px solid #eaeaea;
-     margin-top: 15px;
- }
+.article-meta-data {
+    border-top: 1px solid #eaeaea;
+    margin-top: 15px;
+}
 
- .footer{
+.footer {
     margin-top: 45px;
     padding-top: 5px;
     border-top: 1px solid #eaeaea;
-    color:#fff;
+    color: #fff;
 }
 
-.footer:a{
-    color:#222;
+.footer:a {
+    color: #222;
 }
 
-.footer small{
+.footer small {
     float: left;
 }
 
-.footer ul{
+.footer ul {
     float: right;
     list-style: none;
 }
 
-.footer ul li{
-    float:left;
+.footer ul li {
+    float: left;
     margin-left: 15px;
 }
 
-.linka{
-   color:#fff;
-   font-size: 15px;
-   font-weight: bold;
+.linka {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.listing{
+.listing {
     list-style: none;
     padding-left: 0;
 }
 
-.badge{
+.badge {
     background-color: #cef6f5;
     text-transform: uppercase;
     letter-spacing: -1px;
     font-weight: bold;
-    padding:5px;
+    padding: 5px;
 }
 
-.blue{
-    background-color:#01050B;
+.blue {
+    background-color: #01050B;
     color: #fafafa;
-    padding:5px;
+    padding: 5px;
 }
 
-.input_checkbox input{
-  width: auto !important;
+.input_checkbox input {
+    width: auto !important;
 }
 
-.big{
+.big {
     font-size: 40px;
 }
 
-h1{
+h1 {
     color: #fff;
+}
+
+.white {
+    color: #fafafa;
 }
